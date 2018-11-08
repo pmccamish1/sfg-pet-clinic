@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import javax.persistence.Entity;
 
 @Entity
-public class Pet {
+public class Pet extends BaseEntity {
 	private LocalDate birthDate;
 	private Owner owner;
 	private PetType petType;
